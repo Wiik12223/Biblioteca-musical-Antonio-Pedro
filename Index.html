@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca de Músicas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .album {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        .album:hover {
+            transform: translateY(-5px);
+        }
+        .album a {
+            text-decoration: none;
+            color: inherit;
+        }
+        .album img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .album-info {
+            padding: 15px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Biblioteca Musical</h1>
+    <div class="gallery">
+        <div class="album">
+            <a href="musicas/entre-conflitos.html">
+                <img src="imagens/Entre conflitos(index).png" alt="Capa entre conflitos">
+                <div class="album-info">
+                    <h3>Entre Conflitos</h3>
+                    <p>Wiik</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="album">
+            <a href="musicas/poder-gritar.html">
+                <img src="imagens/poder gritar (index).png" alt="Capa Poder Gritar">
+                <div class="album-info">
+                    <h3>Poder Gritar</h3>
+                    <p>Wiik</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="album">
+            <a href="musicas/vida-de-cao.html">
+                <img src="imagens/Vida de cão.webp" alt="Capa Vida de cão">
+                <div class="album-info">
+                    <h3>Vida de Cão!</h3>
+                    <p>Wiik</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="album">
+            <a href="musicas/fumar-e-relaxar.html">
+                <img src="https://cdn2.suno.ai/9eed4571-4c50-4ce6-a7b0-1cf1e1374fd7_f5c32b9c.jpeg" alt="Capa Niekko:Fumar e relaxar">
+                <div class="album-info">
+                    <h3>Niekko: Fumar e relaxar</h3>
+                    <p>Wiik</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="album">
+            <a href="musicas/estilhacos-de-ilusao.html">
+                <img src="https://cdn2.suno.ai/eea28d96-fe44-48f0-a3b4-ab54310bc1ea_bce225e5.jpeg" alt="Capa Estilhaços de Ilusão">
+                <div class="album-info">
+                    <h3>EStilhaços de Iluão</h3>
+                    <p>Wiik</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="album">
+            <a href="musicas/rolling-emotions.html">
+                <img src="https://cdn2.suno.ai/de509f57-773d-45c7-a009-9e3f4c9a6d45_15463498.jpeg" alt="Capa Rolling Emotions">
+                <div class="album-info">
+                    <h3>Rolling Emotions</h3>
+                    <p>Wiik</p>
+                </div>
+            </a>
+        </div>
+
+    </div>
+</body>
+</html>
